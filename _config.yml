@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "FangTao Qin / Site Title"
+title                    : "FangTao Qin personal description"
 title_separator          : "-"
 name                     : &name "FangTao Qin"
 description              : &description "personal description"
@@ -23,11 +23,11 @@ repository               : "fantot/fantot.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "FangTao Qin"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD | AI · Computer Vision · Urban Governance"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Chongqing University"
   uri              : # URL
   email            : "fantot@gmail.com" 
 
