@@ -16,3 +16,6 @@ Research
 My research is focused on computer vision and image processing. I’m particularly interested in image restoration (e.g., real-world dehazing and depth estimation). Representative papers are highlighted.
 
 
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
