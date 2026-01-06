@@ -18,7 +18,7 @@ A list of all the posts and pages found on the site. For you robots out there, t
 {% capture written_label %}'None'{% endcapture %}
 
 {% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "publications" %}
+{% unless collection.output == false or collection.label != "publications" %}
   {% capture label %}{{ collection.label }}{% endcapture %}
   {% if label != written_label %}
   <h2>{{ label }}</h2>
@@ -26,7 +26,7 @@ A list of all the posts and pages found on the site. For you robots out there, t
   {% endif %}
 {% endunless %}
 {% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
+  {% unless collection.output == false or collection.label != "publications" %}
   {% include archive-single.html %}
   {% endunless %}
 {% endfor %}
